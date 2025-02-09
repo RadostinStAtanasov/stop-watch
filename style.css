@@ -19,9 +19,11 @@ h1, h2, h3 {
     text-transform: uppercase;
 }
 
-#minutes, #seconds, #tens {
-    font-size: 2em;
+#hours, #minutes, #seconds, #tens, p {
+    font-size: 1.75em;
 }
+
+
 
 button {
     border-radius: 5px;
@@ -42,4 +44,10 @@ button:hover {
     background: #fff;
     border: solid 1px #fff;
     color: #ffa600;
+}
+
+p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
