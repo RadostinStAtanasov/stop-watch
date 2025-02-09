@@ -19,7 +19,7 @@ h1, h2, h3 {
     text-transform: uppercase;
 }
 
-#hours, #minutes, #seconds, #tens, p {
+#days, #hours, #minutes, #seconds, #tens, p {
     font-size: 1.75em;
 }
 
@@ -46,8 +46,17 @@ button:hover {
     color: #ffa600;
 }
 
-p {
+#container-zeros-and-words {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
+}
+
+.container-content-zeros-and-words {
+    display: flex;
+    flex-direction: column;
+}
+
+.columns {
+    font-size: 32px;
 }

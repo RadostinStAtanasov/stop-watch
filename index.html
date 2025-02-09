@@ -11,12 +11,36 @@
     <div class="wrapper">
         <h1>Stopwatch</h1>
         <h2>Vanila JavaScript Stopwatch</h2>
-        <p>
-            <span id="hours">00</span>:
-            <span id="minutes">00</span>:
-            <span id="seconds">00</span>:
-            <span id="tens">00</span>
-        </p>
+
+        <div id="container-zeros-and-words">
+            <div class="container-content-zeros-and-words">
+                <span>days</span>
+                <span id="days">00</span>
+            </div>
+            <span class="columns">:</span>
+            <div class="container-content-zeros-and-words">
+                <span>hours</span>
+                <span id="hours">00</span>
+            </div>
+            <span class="columns">:</span>
+
+            <div class="container-content-zeros-and-words">
+                <span>minutes</span>
+                <span id="minutes">00</span>
+            </div>
+            <span class="columns">:</span>
+
+            <div class="container-content-zeros-and-words">
+                <span>seconds</span>
+                <span id="seconds">00</span>
+            </div>
+            <span class="columns">:</span>
+
+            <div class="container-content-zeros-and-words">
+                <span>tens</span>
+                <span id="tens">00</span>
+            </div>            
+        </div>
         <button id="button-start">Start</button>
         <button id="button-stop">Stop</button>
         <button id="button-reset">Reset</button>

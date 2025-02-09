@@ -1,7 +1,7 @@
 window.onload = function () {
-  let hours = 59;
-  let minutes = 59;
-  let seconds = 59;
+  let hours = 0;
+  let minutes = 0;
+  let seconds = 0;
   let tens = 0;
   let appendTens = document.getElementById("tens");
   let appendSeconds = document.getElementById("seconds");
